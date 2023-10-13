@@ -43,10 +43,25 @@ nav {
 input {
     border-radius: 8px;
 }
-input.search {
-    background-color: darkcyan;
+input[type="search"] {
+    border: none;
+    background-color: grey;
     color: white;
+    border-radius: 8px;
+    padding: 10px;
+    align-self: flex-start; 
+    margin-right: 10px; 
 }
-input.search:hover {
+
+input[type="search"]:hover {
     cursor: pointer;
+}
+
+
+.right {
+    align-self: flex-start;
+}
+.logo {
+    height: 40px;
+    width: auto;
 }
